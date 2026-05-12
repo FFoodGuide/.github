@@ -10,13 +10,11 @@ FFoodGuide to projekt łączący dwie prace inżynierskie. Składa się z dwóch
 - Wspomaganie planowania przestrzeni fizycznej
 - Nawigacja uczestników na terenie wydarzenia
 - **Autor:** Wiktoria Bilecka
-- **Repository:** [FFoodGuide/frontend](https://github.com/FFoodGuide/frontend)
 
 ### 2. 📅 Moduł Organizacji Wydarzeń i Spotkań Biznesowych
 - Zarządzanie wydarzeniami i spotkaniami
 - Organizacja aspektów biznesowych
-- **Autor:** Grzegorz Janaska
-- **Repository:** [FFoodGuide/backend](https://github.com/FFoodGuide/backend)
+- **Autor:** Grzegorz Janasek
 
 ---
 
