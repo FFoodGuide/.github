@@ -38,10 +38,7 @@ Moduł ten dostarcza narzędzia zarówno dla organizatorów (projektowanie, gene
 - Tryb „unikać schodów” (dla osób z ograniczoną mobilnością): preferowane windy i rampy ♿️.
 - Wyznaczanie trasy realizowane jest autorskim algorytmem najkrótszej ścieżki w ważonym grafie z heterogenicznymi kosztami — realne trasy uwzględniają typ przejść i preferencje użytkownika.
 
-<video width="400" autoplay loop muted playsinline>
-  <source src="./assets/short.mp4" type="video/mp4">
-  Twoja przeglądarka nie obsługuje wideo.
-</video>
+![Nawigacja — wyznaczona trasa i punkty pośrednie](./assets/nawigacja_trasa.gif)
 
 ### 🖌️ Edytor map (dla organizatora)
 - Interaktywny edytor 2D (rzut z góry): dodawanie budynków, pięter, sal i stoisk — rysowane bezpośrednio na mapie.
