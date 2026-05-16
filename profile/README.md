@@ -29,7 +29,7 @@ Moduł ten dostarcza narzędzia zarówno dla organizatorów (projektowanie, gene
 - Klikalne obiekty (stoiska, sale) pokazują szczegóły: numer, opis, wystawcę itp.
 - Filtry (np. kategorie tematyczne) ułatwiają wyszukiwanie interesujących miejsc.
 
-![Mapa — interaktywny widok piętra](./mapa_interaktywna.png)
+![Mapa — interaktywny widok piętra](./assets/mapa_interaktywna.png)
 
 ### 🧭 Nawigacja wewnętrzna
 - Użytkownik określa punkt startu i cel (może też wyszukać cel — system ustawi go automatycznie).
@@ -38,7 +38,10 @@ Moduł ten dostarcza narzędzia zarówno dla organizatorów (projektowanie, gene
 - Tryb „unikać schodów” (dla osób z ograniczoną mobilnością): preferowane windy i rampy ♿️.
 - Wyznaczanie trasy realizowane jest autorskim algorytmem najkrótszej ścieżki w ważonym grafie z heterogenicznymi kosztami — realne trasy uwzględniają typ przejść i preferencje użytkownika.
 
-![Nawigacja — wyznaczona trasa i punkty pośrednie](./nawigacja_trasa.png)
+<video width="400" autoplay loop muted playsinline>
+  <source src="./assets/short.mp4" type="video/mp4">
+  Twoja przeglądarka nie obsługuje wideo.
+</video>
 
 ### 🖌️ Edytor map (dla organizatora)
 - Interaktywny edytor 2D (rzut z góry): dodawanie budynków, pięter, sal i stoisk — rysowane bezpośrednio na mapie.
@@ -49,7 +52,7 @@ Moduł ten dostarcza narzędzia zarówno dla organizatorów (projektowanie, gene
   2. Obliczenie współrzędnych stoisk i węzłów nawigacyjnych dla wybranego układu.
 - Generowanie objęte jest autorskim algorytmem optymalizacyjnym, zaprojektowanym do szybkiego uzyskiwania praktycznych układów hal, z myślą o minimalizacji ręcznej pracy organizatora i zaoszczędzenie czasu.
 
-![Edytor map — projektowanie hali i generowanie stoisk](./edytor_map.png)
+![Edytor map — projektowanie hali i generowanie stoisk](./assets/edytor_map.png)
 
 ### 📝 Rezerwacja i przypisywanie stoisk
 - Wystawcy zgłaszają zapotrzebowanie, organizator zatwierdza rezerwacje.
@@ -60,7 +63,7 @@ Moduł ten dostarcza narzędzia zarówno dla organizatorów (projektowanie, gene
   - Finalne rozmieszczenie realizowane jest w schemacie „snake pattern” i przypisywane sekwencyjnie.
 - Dzięki temu wystawcy o podobnych profilach są grupowani razem tworząc kategorie — lepsze doświadczenie dla odwiedzających i wystawców.
 
-  ![Rezerwacje — widok przydziału stoisk](./przydzial_stoisk.png)
+  ![Rezerwacje — widok przydziału stoisk](./assets/przydzial_stoisk.png)
 
   ## 🧱 Technologie i architektura
 - Baza danych: PostgreSQL 🗄️  
